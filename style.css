@@ -18,18 +18,18 @@
 }
 
 :root {
-	--background: linear-gradient(45deg, #0a0c02 0%, #141a0d 45%, #0a0c02 100%);
-	--header: linear-gradient(90deg, #141a0de0, #2c3524, #141a0d);
-	--btn-accent: linear-gradient(135deg, #a3e635, #4d7c0f);
-	--btn-inherit: #f7fee7;
-	--accent: linear-gradient(135deg, #bef264, #65a30d);
-	--gift: #f9fafb;
-	--gift-btn: linear-gradient(135deg, #365314, #1a2e05);
+	--background: linear-gradient(45deg, #020617 0%, #1e1b4b 45%, #020617 100%);
+	--header: linear-gradient(90deg, #1e1b4be0, #818cf8, #020617);
+	--btn-accent: linear-gradient(135deg, #6366f1, #312e81);
+	--btn-inherit: #eef2ff;
+	--accent: linear-gradient(135deg, #818cf8, #4338ca);
+	--gift: #f8fafc;
+	--gift-btn: linear-gradient(135deg, #3730a3, #1e1b4b);
 	--border-radius: 10px;
-	--table: linear-gradient(180deg, #141a0d, #0a0c02);
-	--minus: #fb7185;
-	--shadow: #a3e63520;
-	--second-shadow: #4d7c0f;
+	--table: linear-gradient(180deg, #1e1b4b, #020617);
+	--minus: #f43f5e;
+	--shadow: rgba(99, 102, 241, 0.2);
+	--second-shadow: #4338ca;
 }
 
 * {
@@ -401,6 +401,9 @@ header img {
 
 .container {
 	margin: 30px auto;
+	padding: 10px;
+	border-radius: var(--border-radius);
+	box-shadow: 0 0 10px var(--second-shadow);
 }
 
 .table-wrapper {
